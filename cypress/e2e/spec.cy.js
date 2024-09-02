@@ -3,7 +3,7 @@ describe('template spec', () => {
     
     cy.visit('https://bluelsony17.github.io/')
 
-    cy.get('p').should('contain', 'Hello World!')
+    cy.get('p').should('have.text', 'Hello World!')
 
   })
 })
